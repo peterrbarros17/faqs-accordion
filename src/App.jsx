@@ -1,15 +1,14 @@
-import { IconStar } from "./components/Header/icon-star"
 import FAQ from './components/FAQ'
 import Header from "./components/Header"
 
 function App() {
  
   return (
-    <main className='w-full h-screen flex items-center justify-center'>
-      <div className='p-4 bg-slate-200 rounded-xl max-w-2xl'>
-        <Header faq="FAQs - Estágio Front End"/>
+    <main className="w-full h-screen flex items-center justify-center bg-background-pattern font-work-sans bg-cover bg-no-repeat bg-center">
+      <section className='p-6 bg-slate-200 rounded-xl max-w-2xl z-10 m-5'>
+        <Header title="FAQs - Estágio Front End"/>
         <FAQ/>
-      </div>
+      </section>
     </main>
   )
 }

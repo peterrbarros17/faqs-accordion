@@ -1,8 +1,19 @@
-# React + Vite
+# FAQs - Estágio Front-End.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém uma aplicação básica desenvolvida com a ferramente Vite + React e Tailwind CSS. O objetivo principal é criar um menu acordeão responsivo que se expande e recolhe os demais itens ao clicar em uma tarefa específica.
 
-Currently, two official plugins are available:
+### Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+### Ferramentas utilizadas
+- [React](https://reactjs.org/)
+- [Vite.js](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+### Instruções de uso:
+
+1.Clone este repositório para sua máquina local.
+2.Execute npm install para instalar as dependências.
+3.Execute npm run dev para iniciar o servidor de desenvolvimento.
+4.Acesse a aplicação no seu navegador utilizando o link fornecido no terminal.
